@@ -46,7 +46,7 @@ def release_camera():
         camera = None
         print("Camera released.")
 
-# --- Recording Logic ---
+# --- Recording Logic Sequence ---
 
 def record_frames():
     """Reads frames from the camera and writes them to the video file in a separate thread."""
